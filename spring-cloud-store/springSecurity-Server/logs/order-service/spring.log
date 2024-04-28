@@ -1,0 +1,53 @@
+01.14.49.82  INFO 8800 --- [main] c.s.orderserver.OrderServerApplication   : Starting OrderServerApplication using Java 17.0.10 on DESKTOP-D5KOEUO with PID 8800 (D:\SpringBootProject\springSecurity-server2\order-server\target\classes started by LFJ in D:\SpringBootProject\springSecurity-server2)
+01.14.49.87 DEBUG 8800 --- [main] c.s.orderserver.OrderServerApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+01.14.49.87  INFO 8800 --- [main] c.s.orderserver.OrderServerApplication   : The following 1 profile is active: "dev"
+01.14.49.754  INFO 8800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+01.14.49.757  INFO 8800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+01.14.49.774  INFO 8800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+01.14.49.980  INFO 8800 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e30bb615-9267-33a9-9432-22f5c02aab30
+01.14.50.357  INFO 8800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8094 (http)
+01.14.50.365  INFO 8800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+01.14.50.366  INFO 8800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+01.14.50.481  INFO 8800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+01.14.50.482  INFO 8800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1349 ms
+01.14.50.651  INFO 8800 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'cart-service' URL not provided. Will try picking an instance via load-balancing.
+01.14.50.859  INFO 8800 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+01.14.50.876  INFO 8800 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+01.14.52.836  INFO 8800 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+01.14.54.668  INFO 8800 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+01.14.54.693  WARN 8800 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+01.14.54.809  INFO 8800 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of e5dd0adc-b51d-43b2-8193-4e2748bad3a3
+01.14.54.867  INFO 8800 --- [main] org.reflections.Reflections              : Reflections took 33 ms to scan 1 urls, producing 3 keys and 6 values 
+01.14.54.890  INFO 8800 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+01.14.54.899  INFO 8800 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 3 keys and 10 values 
+01.14.54.901  WARN 8800 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+01.14.54.907  INFO 8800 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
+01.14.54.917  INFO 8800 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+01.14.54.926  INFO 8800 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+01.14.54.927  WARN 8800 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+01.14.54.928  INFO 8800 --- [main] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] RpcClient init label, labels = {module=naming, source=sdk}
+01.14.54.930  INFO 8800 --- [main] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+01.14.54.931  INFO 8800 --- [main] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+01.14.54.931  INFO 8800 --- [main] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+01.14.54.933  INFO 8800 --- [main] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] Try to connect to server on start up, server: {serverIp = '192.168.142.101', server main port = 8848}
+01.14.55.920  INFO 8800 --- [main] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] Success to connect to server [192.168.142.101:8848] on start up, connectionId = 1714180495051_192.168.142.1_5580
+01.14.55.921  INFO 8800 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] Notify connected event to listeners.
+01.14.55.923  INFO 8800 --- [main] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+01.14.55.924  INFO 8800 --- [main] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1422/0x0000020f8291f240
+01.14.55.988  INFO 8800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8094 (http) with context path ''
+01.14.55.995  INFO 8800 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP order-service 192.168.142.1:8094 register finished
+01.14.56.490  INFO 8800 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] Receive server push request, request = NotifySubscriberRequest, requestId = 73
+01.14.56.493  INFO 8800 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [e5dd0adc-b51d-43b2-8193-4e2748bad3a3] Ack server push request, request = NotifySubscriberRequest, requestId = 73
+01.14.57.244  INFO 8800 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+01.14.57.251  INFO 8800 --- [main] c.s.orderserver.OrderServerApplication   : Started OrderServerApplication in 9.967 seconds (JVM running for 10.55)
+01.17.10.692  WARN 8800 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+01.17.10.692  WARN 8800 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+01.17.10.699  WARN 8800 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+01.17.10.700  WARN 8800 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+01.17.10.745  INFO 8800 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+01.17.10.750  INFO 8800 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+01.17.11.83  INFO 8800 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+01.17.11.83  INFO 8800 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@3824c48e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+01.17.11.84  INFO 8800 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1714180495051_192.168.142.1_5580
+01.17.11.87  INFO 8800 --- [nacos-grpc-client-executor-41] c.a.n.c.remote.client.grpc.GrpcClient    : [1714180495051_192.168.142.1_5580]Ignore complete event,isRunning:false,isAbandon=false
+01.17.11.90  INFO 8800 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5a852aaa[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 42]

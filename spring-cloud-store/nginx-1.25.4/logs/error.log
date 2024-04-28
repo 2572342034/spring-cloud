@@ -1,0 +1,75 @@
+2024/04/11 16:06:00 [warn] 1696#15508: "user" is not supported, ignored in C:\Users\LFJ\Desktop\nginx-1.25.4/conf/nginx.conf:2
+2024/04/11 16:06:00 [emerg] 1696#15508: CreateFile() "C:/etc/nginx/mime.types" failed (3: The system cannot find the path specified) in C:\Users\LFJ\Desktop\nginx-1.25.4/conf/nginx.conf:23
+2024/04/11 16:09:09 [emerg] 2880#21120: duplicate location "/" in C:\Users\LFJ\Desktop\nginx-1.25.4/conf/nginx.conf:55
+2024/04/11 16:10:09 [emerg] 12132#760: duplicate location "/" in C:\Users\LFJ\Desktop\nginx-1.25.4/conf/nginx.conf:55
+2024/04/11 16:11:27 [notice] 11112#10004: signal process started
+2024/04/11 16:11:27 [error] 11112#10004: CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2024/04/11 16:13:00 [notice] 21444#1136: signal process started
+2024/04/11 16:13:00 [error] 21444#1136: CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2024/04/11 16:14:24 [notice] 15840#5212: signal process started
+2024/04/11 16:14:24 [error] 15840#5212: invalid PID number "" in "C:\Users\LFJ\Desktop\nginx-1.25.4/logs/nginx.pid"
+2024/04/11 16:16:13 [error] 21624#21764: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:9090/", host: "localhost"
+2024/04/11 16:16:15 [error] 21624#21764: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:9090/", host: "localhost"
+2024/04/11 16:16:15 [error] 21624#21764: *1 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/50x.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:9090/", host: "localhost"
+2024/04/11 16:16:15 [error] 21624#21764: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/04/11 16:16:15 [error] 21624#21764: *1 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/50x.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/04/11 16:16:59 [notice] 22276#22320: signal process started
+2024/04/11 16:17:03 [error] 21624#21764: *2 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:9090/", host: "localhost"
+2024/04/11 16:17:05 [error] 21624#21764: *2 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:9090/", host: "localhost"
+2024/04/11 16:17:05 [error] 21624#21764: *2 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/50x.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:9090/", host: "localhost"
+2024/04/11 16:17:40 [notice] 17608#21672: signal process started
+2024/04/11 16:19:20 [error] 21652#2336: *11 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/11 16:19:23 [error] 21652#2336: *11 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/11 16:19:32 [notice] 23040#23044: signal process started
+2024/04/11 16:19:34 [error] 21652#2336: *13 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/11 16:25:49 [notice] 23488#21968: signal process started
+2024/04/11 16:26:10 [error] 21816#22936: *15 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/11 16:26:39 [notice] 19636#1524: signal process started
+2024/04/11 16:26:41 [error] 21816#22936: *16 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/11 16:26:42 [error] 21816#22936: *17 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/11 16:28:48 [error] 2324#22884: *19 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/11 16:29:17 [error] 2324#22884: *19 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/11 16:29:20 [error] 2324#22884: *19 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 16:49:26 [notice] 8236#7296: signal process started
+2024/04/28 16:54:41 [notice] 21352#23012: signal process started
+2024/04/28 16:55:49 [error] 12396#21628: *8 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 16:55:49 [error] 12396#21628: *8 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/login"
+2024/04/28 16:55:50 [error] 12396#21628: *8 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 16:56:27 [error] 12396#21628: *8 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 16:56:31 [notice] 5524#12732: signal process started
+2024/04/28 16:56:33 [error] 12396#21628: *10 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 16:56:34 [error] 20108#3064: *11 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 16:57:18 [error] 20108#3064: *11 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 16:57:18 [error] 20108#3064: *11 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 16:57:19 [error] 20108#3064: *11 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 16:57:19 [error] 20108#3064: *11 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 17:01:32 [notice] 17056#23024: signal process started
+2024/04/28 17:12:25 [error] 23520#17544: *19 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 17:12:28 [error] 23520#17544: *19 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 19:52:45 [notice] 23072#12416: signal process started
+2024/04/28 19:53:05 [error] 4664#1276: *22 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 19:53:05 [error] 4664#1276: *22 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/login"
+2024/04/28 19:53:06 [error] 4664#1276: *22 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 19:53:32 [error] 4664#1276: *22 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 19:53:43 [notice] 10712#11408: signal process started
+2024/04/28 20:01:12 [notice] 13292#20156: signal process started
+2024/04/28 20:06:24 [error] 14484#12952: *29 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 20:07:11 [error] 14484#12952: *29 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/home" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /home HTTP/1.1", host: "localhost"
+2024/04/28 20:07:17 [error] 14484#12952: *29 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/home" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /home HTTP/1.1", host: "localhost"
+2024/04/28 20:07:18 [error] 14484#12952: *29 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/home" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /home HTTP/1.1", host: "localhost"
+2024/04/28 20:07:19 [error] 14484#12952: *29 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/home" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /home HTTP/1.1", host: "localhost"
+2024/04/28 20:07:19 [error] 14484#12952: *29 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/home" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /home HTTP/1.1", host: "localhost"
+2024/04/28 20:09:35 [notice] 12608#2080: signal process started
+2024/04/28 20:09:51 [error] 19960#9852: *33 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 20:09:51 [error] 19960#9852: *33 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/login"
+2024/04/28 20:10:34 [error] 19960#9852: *33 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 20:15:09 [emerg] 22288#14176: directive "root" is not terminated by ";" in C:\Users\LFJ\Desktop\nginx-1.25.4/conf/nginx.conf:45
+2024/04/28 20:15:46 [notice] 14976#9244: signal process started
+2024/04/28 20:22:59 [notice] 23356#14920: signal process started
+2024/04/28 20:23:03 [error] 3948#14100: *38 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 20:23:18 [error] 3948#14100: *38 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 20:23:33 [error] 3948#14100: *38 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 20:23:34 [error] 3948#14100: *38 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 20:23:34 [error] 3948#14100: *38 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 20:23:34 [error] 3948#14100: *38 CreateFile() "C:\Users\LFJ\Desktop\nginx-1.25.4/html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost"
+2024/04/28 20:24:20 [notice] 20940#19128: signal process started

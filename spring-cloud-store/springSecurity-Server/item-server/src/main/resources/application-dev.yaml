@@ -1,0 +1,12 @@
+store:
+  db:
+    host: localhost
+    pw: root
+    un: root
+    database: sg_security
+  swagger:
+    package: com.store.itemserver.controller
+
+  redis:
+    host: localhost
+    port: 6379

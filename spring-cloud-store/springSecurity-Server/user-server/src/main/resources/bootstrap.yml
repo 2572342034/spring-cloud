@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: user-service # 服务名称
+  profiles:
+    active: dev
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  cloud:
+    nacos:
+      server-addr: 192.168.142.101:8848 # nacos地址
+      config:
+        file-extension: yaml # 文件后缀名
+        shared-configs: # 共享配置
+          - dataId: shared-jdbc.yaml # 共享mybatis配置
+          - dataId: store-shared-log.yaml.yaml # 共享日志配置
+          - dataId: shared-swagger.yaml #共享swagger
+          - dataId: pagehelper.yaml #共享分页插件
+          - dataId: open-feign-ok.yaml #共享进程池
+          - dataId: store-shared-redis.yaml #共享redis配置
+          - dataId: store-jwt.yaml # 共享密钥配置

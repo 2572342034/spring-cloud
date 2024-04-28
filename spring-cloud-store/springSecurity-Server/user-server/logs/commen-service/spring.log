@@ -1,0 +1,688 @@
+14.31.40.94  INFO 1464 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 1464 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.31.40.95 DEBUG 1464 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.31.40.96  INFO 1464 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.31.40.758  INFO 1464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.31.40.761  INFO 1464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.31.40.784  INFO 1464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+14.31.43.72  INFO 1464 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bb6869a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b2c8bda, org.springframework.security.web.header.HeaderWriterFilter@57b130f6, org.springframework.web.filter.CorsFilter@506b083, org.springframework.security.web.authentication.logout.LogoutFilter@3f908bc0, com.store.commen.filters.JwtAuthenticationTokenFilter@5eee3da9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@707f4647, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a04d2a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b632442, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ace2408, org.springframework.security.web.session.SessionManagementFilter@72e75786, org.springframework.security.web.access.ExceptionTranslationFilter@7c47e077, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14af73e1]
+14.31.43.695  INFO 1464 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.968 seconds (JVM running for 4.917)
+14.33.05.832  INFO 10680 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 10680 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.33.05.834 DEBUG 10680 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.33.05.834  INFO 10680 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.33.06.526  INFO 10680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.33.06.529  INFO 10680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.33.06.557  INFO 10680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+14.33.08.805  INFO 10680 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d9bd1d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@4df7b4ac, org.springframework.security.web.header.HeaderWriterFilter@1c411474, org.springframework.web.filter.CorsFilter@18ac4af6, org.springframework.security.web.authentication.logout.LogoutFilter@57a982f9, com.store.commen.filters.JwtAuthenticationTokenFilter@117fb9ba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19e801b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ae9d0e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67e4928c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b1d1a5, org.springframework.security.web.session.SessionManagementFilter@1d2c253, org.springframework.security.web.access.ExceptionTranslationFilter@3c8fe8ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dd64243]
+14.33.09.503  INFO 10680 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.021 seconds (JVM running for 4.949)
+14.35.41.236  INFO 16244 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 16244 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.35.41.238 DEBUG 16244 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.35.41.239  INFO 16244 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.35.41.926  INFO 16244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.35.41.930  INFO 16244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.35.41.952  INFO 16244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+14.35.44.229  INFO 16244 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7544260a, org.springframework.security.web.context.SecurityContextPersistenceFilter@67e4928c, org.springframework.security.web.header.HeaderWriterFilter@7c47e077, org.springframework.web.filter.CorsFilter@bb6869a, org.springframework.security.web.authentication.logout.LogoutFilter@45b27ad3, com.store.commen.filters.JwtAuthenticationTokenFilter@506b083, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@26cdd4af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c0fefac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@647ff23e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eee3da9, org.springframework.security.web.session.SessionManagementFilter@6acb45c1, org.springframework.security.web.access.ExceptionTranslationFilter@152891f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c815814]
+14.35.44.882  INFO 16244 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.027 seconds (JVM running for 4.906)
+14.35.45.296  INFO 16244 --- [main] c.s.u.UserServerApplicationTests         : usernamecom.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7602c65d
+14.36.09.953  INFO 21728 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 21728 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.36.09.954 DEBUG 21728 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.36.09.955  INFO 21728 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.36.10.640  INFO 21728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.36.10.642  INFO 21728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.36.10.665  INFO 21728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+14.36.12.909  INFO 21728 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c154508, org.springframework.security.web.context.SecurityContextPersistenceFilter@45b27ad3, org.springframework.security.web.header.HeaderWriterFilter@50f05307, org.springframework.web.filter.CorsFilter@395eb363, org.springframework.security.web.authentication.logout.LogoutFilter@31f1b268, com.store.commen.filters.JwtAuthenticationTokenFilter@1e194966, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7598d675, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26cdd4af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16949dfa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@160546b1, org.springframework.security.web.session.SessionManagementFilter@8ee03f5, org.springframework.security.web.access.ExceptionTranslationFilter@57a982f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ad5cffa]
+14.36.13.524  INFO 21728 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.936 seconds (JVM running for 4.905)
+14.36.13.986  INFO 21728 --- [main] c.s.u.UserServerApplicationTests         : usernamecom.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@19656e21
+14.38.11.906  INFO 17276 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 17276 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.38.11.908 DEBUG 17276 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.38.11.909  INFO 17276 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.38.12.538  INFO 17276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.38.12.541  INFO 17276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.38.12.568  INFO 17276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+14.38.14.830  INFO 17276 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fa18f87, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a2035e1, org.springframework.security.web.header.HeaderWriterFilter@9d3a7a1, org.springframework.web.filter.CorsFilter@1d9bd1d6, org.springframework.security.web.authentication.logout.LogoutFilter@556aed22, com.store.commen.filters.JwtAuthenticationTokenFilter@18ac4af6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b69fc07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41bd6a0f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57b130f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@117fb9ba, org.springframework.security.web.session.SessionManagementFilter@152891f8, org.springframework.security.web.access.ExceptionTranslationFilter@4f552aa2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7286827b]
+14.38.15.456  INFO 17276 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.911 seconds (JVM running for 4.863)
+14.42.08.703  INFO 6060 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 6060 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.42.08.704 DEBUG 6060 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.42.08.706  INFO 6060 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.42.09.448  INFO 6060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.42.09.455  INFO 6060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.42.09.482  INFO 6060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+14.42.11.751  INFO 6060 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bc21e34, org.springframework.security.web.context.SecurityContextPersistenceFilter@6acb45c1, org.springframework.security.web.header.HeaderWriterFilter@15a484a9, org.springframework.web.filter.CorsFilter@7544260a, org.springframework.security.web.authentication.logout.LogoutFilter@3d3b272a, com.store.commen.filters.JwtAuthenticationTokenFilter@bb6869a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@422ba9b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57b130f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dde0a34, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@506b083, org.springframework.security.web.session.SessionManagementFilter@4df7b4ac, org.springframework.security.web.access.ExceptionTranslationFilter@7b4619a3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53a09566]
+14.42.12.395  INFO 6060 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.174 seconds (JVM running for 5.268)
+14.44.00.818  INFO 16728 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 16728 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.44.00.820 DEBUG 16728 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.44.00.820  INFO 16728 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.44.01.494  INFO 16728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.44.01.501  INFO 16728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.44.01.530  INFO 16728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+14.44.03.821  INFO 16728 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2932e15f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cc61b3b, org.springframework.security.web.header.HeaderWriterFilter@41bd6a0f, org.springframework.web.filter.CorsFilter@3d98729a, org.springframework.security.web.authentication.logout.LogoutFilter@8ee03f5, com.store.commen.filters.JwtAuthenticationTokenFilter@2375a976, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d3b272a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fbc7853, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a04d2a4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bc21e34, org.springframework.security.web.session.SessionManagementFilter@294c44b7, org.springframework.security.web.access.ExceptionTranslationFilter@43d6262c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71e7c13f]
+14.44.04.457  INFO 16728 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.993 seconds (JVM running for 4.973)
+14.44.04.944  INFO 16728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+14.44.08.785 ERROR 16728 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159) ~[spring-jdbc-5.3.23.jar:5.3.23]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117) ~[spring-jdbc-5.3.23.jar:5.3.23]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80) ~[spring-jdbc-5.3.23.jar:5.3.23]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:136) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.7.jar:3.5.7]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at jdk.proxy2/jdk.proxy2.$Proxy77.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at jdk.proxy2/jdk.proxy2.$Proxy78.selectList(Unknown Source) ~[na:na]
+	at com.store.userserver.UserServerApplicationTests.getName(UserServerApplicationTests.java:27) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725) ~[junit-platform-commons-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	... 106 common frames omitted
+Caused by: java.net.UnknownHostException: 不知道这样的主机。 (mysql)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1532) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1384) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	... 109 common frames omitted
+
+14.47.23.606  INFO 18588 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 18588 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.47.23.606 DEBUG 18588 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.47.23.607  INFO 18588 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.47.24.327  INFO 18588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.47.24.330  INFO 18588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.47.24.373  INFO 18588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+14.47.27.173  INFO 18588 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bb6869a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b2c8bda, org.springframework.security.web.header.HeaderWriterFilter@57b130f6, org.springframework.web.filter.CorsFilter@506b083, org.springframework.security.web.authentication.logout.LogoutFilter@3f908bc0, com.store.commen.filters.JwtAuthenticationTokenFilter@5eee3da9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@707f4647, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a04d2a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b632442, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ace2408, org.springframework.security.web.session.SessionManagementFilter@72e75786, org.springframework.security.web.access.ExceptionTranslationFilter@7c47e077, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14af73e1]
+14.47.27.785  INFO 18588 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.544 seconds (JVM running for 5.49)
+14.47.28.230  INFO 18588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+14.47.32.45 ERROR 18588 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159) ~[spring-jdbc-5.3.23.jar:5.3.23]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117) ~[spring-jdbc-5.3.23.jar:5.3.23]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80) ~[spring-jdbc-5.3.23.jar:5.3.23]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:136) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145) ~[mybatis-3.5.7.jar:3.5.7]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.7.jar:3.5.7]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at jdk.proxy2/jdk.proxy2.$Proxy77.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at jdk.proxy2/jdk.proxy2.$Proxy78.selectList(Unknown Source) ~[na:na]
+	at com.store.userserver.UserServerApplicationTests.getName(UserServerApplicationTests.java:28) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725) ~[junit-platform-commons-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	... 106 common frames omitted
+Caused by: java.net.UnknownHostException: 不知道这样的主机。 (mysql)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1532) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1384) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	... 109 common frames omitted
+
+14.48.24.59  INFO 20524 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 20524 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.48.24.60 DEBUG 20524 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.48.24.60  INFO 20524 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.48.24.927  INFO 20524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.48.24.934  INFO 20524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.48.24.976  INFO 20524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+14.48.27.479  INFO 20524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7544260a, org.springframework.security.web.context.SecurityContextPersistenceFilter@67e4928c, org.springframework.security.web.header.HeaderWriterFilter@7c47e077, org.springframework.web.filter.CorsFilter@bb6869a, org.springframework.security.web.authentication.logout.LogoutFilter@45b27ad3, com.store.commen.filters.JwtAuthenticationTokenFilter@506b083, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@26cdd4af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c0fefac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@647ff23e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eee3da9, org.springframework.security.web.session.SessionManagementFilter@6acb45c1, org.springframework.security.web.access.ExceptionTranslationFilter@152891f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c815814]
+14.48.28.202  INFO 20524 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.555 seconds (JVM running for 5.68)
+14.48.28.679  INFO 20524 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+14.48.29.18  INFO 20524 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+14.48.29.28 DEBUG 20524 --- [main] c.s.u.mapper.UserMapper.selectList       : ==>  Preparing: SELECT id,user_name,nick_name,age,password,status,email,phone_number,balance,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user
+14.48.29.56 DEBUG 20524 --- [main] c.s.u.mapper.UserMapper.selectList       : ==> Parameters: 
+14.48.29.107 DEBUG 20524 --- [main] c.s.u.mapper.UserMapper.selectList       : <==      Total: 4
+14.48.29.124  INFO 20524 --- [main] c.s.u.UserServerApplicationTests         : username[User(id=5, userName=liu, nickName=普通用户, age=12, password=$2a$10$.oD9Zbig8tU4NV1O5KVoaumjO5jj3761NZC6iN.j1d1ByACna.w3q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=6190899, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:28:45, updateBy=null, updateTime=2024-04-08T15:28:45, delFlag=0), User(id=6, userName=tom, nickName=普通用户, age=12, password=$2a$10$dCnFeVU4ny9MA79plAZu9.H/x72mLPS9kSgBLOsXnLlpoeFa5761q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:32:35, updateBy=null, updateTime=2024-04-08T15:32:35, delFlag=0), User(id=7, userName=tom22, nickName=普通用户, age=18, password=$2a$10$/VQBy/qzgPiKjTYHSRjf8.0YZzMiIrFQxc26ROpZvPW/7AdbF2kVK, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:46:30, updateBy=null, updateTime=2024-04-08T15:46:30, delFlag=0), User(id=8, userName=tom223, nickName=普通用户, age=18, password=$2a$10$mUH7zQ.QNhMWIBKcQq/PiuwB0M35n8aVTGWMXW8xCNtNLQggtl3Q6, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T16:19:48, updateBy=null, updateTime=2024-04-08T16:19:48, delFlag=0)]
+14.48.29.166  INFO 20524 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+14.48.29.182  INFO 20524 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+14.48.56.635  INFO 16244 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 16244 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.48.56.636 DEBUG 16244 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.48.56.637  INFO 16244 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.48.57.272  INFO 16244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.48.57.280  INFO 16244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.48.57.306  INFO 16244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+14.48.59.586  INFO 16244 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@573870cb, org.springframework.security.web.context.SecurityContextPersistenceFilter@30bbe83, org.springframework.security.web.header.HeaderWriterFilter@5a2035e1, org.springframework.web.filter.CorsFilter@5b88af70, org.springframework.security.web.authentication.logout.LogoutFilter@50f05307, com.store.commen.filters.JwtAuthenticationTokenFilter@2739ecc0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8ee03f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cc61b3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b2c8bda, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2932e15f, org.springframework.security.web.session.SessionManagementFilter@41bd6a0f, org.springframework.security.web.access.ExceptionTranslationFilter@1c411474, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e67a8c0]
+14.49.00.203  INFO 16244 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.913 seconds (JVM running for 4.836)
+14.49.39.807  INFO 17708 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 17708 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.49.39.808 DEBUG 17708 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.49.39.809  INFO 17708 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.49.40.477  INFO 17708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.49.40.480  INFO 17708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.49.40.506  INFO 17708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+14.49.42.823  INFO 17708 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ffbf0ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e2975ca, org.springframework.security.web.header.HeaderWriterFilter@49cceb19, org.springframework.web.filter.CorsFilter@ad5cffa, org.springframework.security.web.authentication.logout.LogoutFilter@688d619c, com.store.commen.filters.JwtAuthenticationTokenFilter@237aa0c7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@35a9e665, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9d3a7a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15a484a9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b8ee69d, org.springframework.security.web.session.SessionManagementFilter@616f81b5, org.springframework.security.web.access.ExceptionTranslationFilter@5fe3b058, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a7bbdbc]
+14.49.43.589  INFO 17708 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.151 seconds (JVM running for 5.081)
+14.49.44.45  INFO 17708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+14.49.44.302  INFO 17708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+14.49.44.310 DEBUG 17708 --- [main] c.s.u.mapper.UserMapper.selectList       : ==>  Preparing: SELECT id,user_name,nick_name,age,password,status,email,phone_number,balance,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user
+14.49.44.337 DEBUG 17708 --- [main] c.s.u.mapper.UserMapper.selectList       : ==> Parameters: 
+14.49.44.367 DEBUG 17708 --- [main] c.s.u.mapper.UserMapper.selectList       : <==      Total: 4
+14.49.44.389  INFO 17708 --- [main] c.s.u.UserServerApplicationTests         : username[User(id=5, userName=liu, nickName=普通用户, age=12, password=$2a$10$.oD9Zbig8tU4NV1O5KVoaumjO5jj3761NZC6iN.j1d1ByACna.w3q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=6190899, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:28:45, updateBy=null, updateTime=2024-04-08T15:28:45, delFlag=0), User(id=6, userName=tom, nickName=普通用户, age=12, password=$2a$10$dCnFeVU4ny9MA79plAZu9.H/x72mLPS9kSgBLOsXnLlpoeFa5761q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:32:35, updateBy=null, updateTime=2024-04-08T15:32:35, delFlag=0), User(id=7, userName=tom22, nickName=普通用户, age=18, password=$2a$10$/VQBy/qzgPiKjTYHSRjf8.0YZzMiIrFQxc26ROpZvPW/7AdbF2kVK, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:46:30, updateBy=null, updateTime=2024-04-08T15:46:30, delFlag=0), User(id=8, userName=tom223, nickName=普通用户, age=18, password=$2a$10$mUH7zQ.QNhMWIBKcQq/PiuwB0M35n8aVTGWMXW8xCNtNLQggtl3Q6, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T16:19:48, updateBy=null, updateTime=2024-04-08T16:19:48, delFlag=0)]
+14.49.44.463  INFO 17708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+14.49.44.477  INFO 17708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+14.50.22.219  INFO 15328 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 15328 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.50.22.220 DEBUG 15328 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.50.22.221  INFO 15328 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.50.22.936  INFO 15328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.50.22.939  INFO 15328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.50.22.969  INFO 15328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+14.50.25.322  INFO 15328 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fa18f87, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a2035e1, org.springframework.security.web.header.HeaderWriterFilter@9d3a7a1, org.springframework.web.filter.CorsFilter@1d9bd1d6, org.springframework.security.web.authentication.logout.LogoutFilter@556aed22, com.store.commen.filters.JwtAuthenticationTokenFilter@18ac4af6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b69fc07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41bd6a0f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57b130f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@117fb9ba, org.springframework.security.web.session.SessionManagementFilter@152891f8, org.springframework.security.web.access.ExceptionTranslationFilter@4f552aa2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7286827b]
+14.50.26.15  INFO 15328 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.18 seconds (JVM running for 5.128)
+14.53.58.522  INFO 17708 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 17708 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.53.58.523 DEBUG 17708 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.53.58.523  INFO 17708 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.53.59.157  INFO 17708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.53.59.159  INFO 17708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.53.59.188  INFO 17708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+14.54.01.486  INFO 17708 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fceab5d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e681097, org.springframework.security.web.header.HeaderWriterFilter@3c8fe8ad, org.springframework.web.filter.CorsFilter@79445efb, org.springframework.security.web.authentication.logout.LogoutFilter@2dde0a34, com.store.commen.filters.JwtAuthenticationTokenFilter@1592e540, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7227926b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15a484a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41bd6a0f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e2772a9, org.springframework.security.web.session.SessionManagementFilter@38cf4497, org.springframework.security.web.access.ExceptionTranslationFilter@79617c3d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23ec63af]
+14.54.02.156  INFO 17708 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.004 seconds (JVM running for 4.941)
+14.55.10.355  INFO 11968 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 11968 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+14.55.10.356 DEBUG 11968 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+14.55.10.356  INFO 11968 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+14.55.11.18  INFO 11968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14.55.11.21  INFO 11968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14.55.11.43  INFO 11968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+14.55.13.310  INFO 11968 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fceab5d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e681097, org.springframework.security.web.header.HeaderWriterFilter@3c8fe8ad, org.springframework.web.filter.CorsFilter@79445efb, org.springframework.security.web.authentication.logout.LogoutFilter@2dde0a34, com.store.commen.filters.JwtAuthenticationTokenFilter@1592e540, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7227926b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15a484a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41bd6a0f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e2772a9, org.springframework.security.web.session.SessionManagementFilter@38cf4497, org.springframework.security.web.access.ExceptionTranslationFilter@79617c3d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23ec63af]
+14.55.13.960  INFO 11968 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.992 seconds (JVM running for 4.965)
+15.04.21.463  INFO 18588 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 18588 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+15.04.21.464 DEBUG 18588 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+15.04.21.464  INFO 18588 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+15.04.22.260  INFO 18588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15.04.22.264  INFO 18588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15.04.22.294  INFO 18588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+15.04.22.831  WARN 18588 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.store.userserver.service.LoginService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+15.04.22.838  INFO 18588 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15.04.22.864 ERROR 18588 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field loginService in com.store.userserver.controller.LoginController required a bean of type 'com.store.userserver.service.LoginService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.store.userserver.service.LoginService' in your configuration.
+
+15.04.22.870 ERROR 18588 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@673be18f] to prepare test instance [com.store.userserver.UserServerApplicationTests@c889805]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.store.userserver.service.LoginService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745) ~[spring-boot-2.6.13.jar:2.6.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420) ~[spring-boot-2.6.13.jar:2.6.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.6.13.jar:2.6.13]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144) ~[spring-boot-test-2.6.13.jar:2.6.13]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90) ~[spring-test-5.3.23.jar:5.3.23]
+	... 71 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.store.userserver.service.LoginService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 90 common frames omitted
+
+15.04.57.514  INFO 5652 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 5652 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+15.04.57.515 DEBUG 5652 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+15.04.57.515  INFO 5652 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+15.04.58.271  INFO 5652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15.04.58.274  INFO 5652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15.04.58.299  INFO 5652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+15.05.00.984  INFO 5652 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3573e19d, org.springframework.security.web.context.SecurityContextPersistenceFilter@35a9e665, org.springframework.security.web.header.HeaderWriterFilter@2c0fefac, org.springframework.web.filter.CorsFilter@5c1dd18, org.springframework.security.web.authentication.logout.LogoutFilter@4b8a0d03, com.store.commen.filters.JwtAuthenticationTokenFilter@2a6dbb7c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16949dfa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61836cd9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57a982f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5178345d, org.springframework.security.web.session.SessionManagementFilter@3b2c8bda, org.springframework.security.web.access.ExceptionTranslationFilter@294c44b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d0e703a]
+15.05.01.858  INFO 5652 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.699 seconds (JVM running for 5.654)
+15.05.02.367  INFO 5652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15.05.02.713  INFO 5652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15.05.02.722 DEBUG 5652 --- [main] c.s.u.mapper.UserMapper.selectList       : ==>  Preparing: SELECT id,user_name,nick_name,age,password,status,email,phone_number,balance,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user
+15.05.02.747 DEBUG 5652 --- [main] c.s.u.mapper.UserMapper.selectList       : ==> Parameters: 
+15.05.02.775 DEBUG 5652 --- [main] c.s.u.mapper.UserMapper.selectList       : <==      Total: 4
+15.05.02.790  INFO 5652 --- [main] c.s.u.UserServerApplicationTests         : username[User(id=5, userName=liu, nickName=普通用户, age=12, password=$2a$10$.oD9Zbig8tU4NV1O5KVoaumjO5jj3761NZC6iN.j1d1ByACna.w3q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=6190899, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:28:45, updateBy=null, updateTime=2024-04-08T15:28:45, delFlag=0), User(id=6, userName=tom, nickName=普通用户, age=12, password=$2a$10$dCnFeVU4ny9MA79plAZu9.H/x72mLPS9kSgBLOsXnLlpoeFa5761q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:32:35, updateBy=null, updateTime=2024-04-08T15:32:35, delFlag=0), User(id=7, userName=tom22, nickName=普通用户, age=18, password=$2a$10$/VQBy/qzgPiKjTYHSRjf8.0YZzMiIrFQxc26ROpZvPW/7AdbF2kVK, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:46:30, updateBy=null, updateTime=2024-04-08T15:46:30, delFlag=0), User(id=8, userName=tom223, nickName=普通用户, age=18, password=$2a$10$mUH7zQ.QNhMWIBKcQq/PiuwB0M35n8aVTGWMXW8xCNtNLQggtl3Q6, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T16:19:48, updateBy=null, updateTime=2024-04-08T16:19:48, delFlag=0)]
+15.05.02.818  INFO 5652 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15.05.02.822  INFO 5652 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15.05.23.805  INFO 18692 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 18692 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+15.05.23.808 DEBUG 18692 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+15.05.23.809  INFO 18692 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+15.05.24.473  INFO 18692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15.05.24.476  INFO 18692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15.05.24.498  INFO 18692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+15.05.26.753  INFO 18692 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@573870cb, org.springframework.security.web.context.SecurityContextPersistenceFilter@30bbe83, org.springframework.security.web.header.HeaderWriterFilter@5a2035e1, org.springframework.web.filter.CorsFilter@5b88af70, org.springframework.security.web.authentication.logout.LogoutFilter@50f05307, com.store.commen.filters.JwtAuthenticationTokenFilter@2739ecc0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8ee03f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cc61b3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b2c8bda, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2932e15f, org.springframework.security.web.session.SessionManagementFilter@41bd6a0f, org.springframework.security.web.access.ExceptionTranslationFilter@1c411474, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e67a8c0]
+15.05.27.380  INFO 18692 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.947 seconds (JVM running for 4.875)
+15.05.27.819  INFO 18692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15.05.28.44  INFO 18692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15.05.28.51 DEBUG 18692 --- [main] c.s.u.mapper.UserMapper.selectList       : ==>  Preparing: SELECT id,user_name,nick_name,age,password,status,email,phone_number,balance,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user
+15.05.28.76 DEBUG 18692 --- [main] c.s.u.mapper.UserMapper.selectList       : ==> Parameters: 
+15.05.28.104 DEBUG 18692 --- [main] c.s.u.mapper.UserMapper.selectList       : <==      Total: 4
+15.05.28.120  INFO 18692 --- [main] c.s.u.UserServerApplicationTests         : username[User(id=5, userName=liu, nickName=普通用户, age=12, password=$2a$10$.oD9Zbig8tU4NV1O5KVoaumjO5jj3761NZC6iN.j1d1ByACna.w3q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=6190899, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:28:45, updateBy=null, updateTime=2024-04-08T15:28:45, delFlag=0), User(id=6, userName=tom, nickName=普通用户, age=12, password=$2a$10$dCnFeVU4ny9MA79plAZu9.H/x72mLPS9kSgBLOsXnLlpoeFa5761q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:32:35, updateBy=null, updateTime=2024-04-08T15:32:35, delFlag=0), User(id=7, userName=tom22, nickName=普通用户, age=18, password=$2a$10$/VQBy/qzgPiKjTYHSRjf8.0YZzMiIrFQxc26ROpZvPW/7AdbF2kVK, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:46:30, updateBy=null, updateTime=2024-04-08T15:46:30, delFlag=0), User(id=8, userName=tom223, nickName=普通用户, age=18, password=$2a$10$mUH7zQ.QNhMWIBKcQq/PiuwB0M35n8aVTGWMXW8xCNtNLQggtl3Q6, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T16:19:48, updateBy=null, updateTime=2024-04-08T16:19:48, delFlag=0)]
+15.05.28.148  INFO 18692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15.05.28.151  INFO 18692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15.08.06.161  INFO 16016 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 16016 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+15.08.06.162 DEBUG 16016 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+15.08.06.163  INFO 16016 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+15.08.06.822  INFO 16016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15.08.06.825  INFO 16016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15.08.06.851  INFO 16016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+15.08.09.255  INFO 16016 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e2772a9, org.springframework.security.web.context.SecurityContextPersistenceFilter@15a484a9, org.springframework.security.web.header.HeaderWriterFilter@38cf4497, org.springframework.web.filter.CorsFilter@4449b273, org.springframework.security.web.authentication.logout.LogoutFilter@7227926b, com.store.commen.filters.JwtAuthenticationTokenFilter@1fa18f87, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57a982f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4df7b4ac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@294c44b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d9bd1d6, org.springframework.security.web.session.SessionManagementFilter@1c411474, org.springframework.security.web.access.ExceptionTranslationFilter@1f75fd1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71285693]
+15.08.10.107  INFO 16016 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.345 seconds (JVM running for 5.232)
+15.08.10.723  INFO 16016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15.08.11.35  INFO 16016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15.08.11.42 DEBUG 16016 --- [main] c.s.u.mapper.UserMapper.selectList       : ==>  Preparing: SELECT id,user_name,nick_name,age,password,status,email,phone_number,balance,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user
+15.08.11.68 DEBUG 16016 --- [main] c.s.u.mapper.UserMapper.selectList       : ==> Parameters: 
+15.08.11.93 DEBUG 16016 --- [main] c.s.u.mapper.UserMapper.selectList       : <==      Total: 4
+15.08.11.109  INFO 16016 --- [main] c.s.u.UserServerApplicationTests         : username[User(id=5, userName=liu, nickName=普通用户, age=12, password=$2a$10$.oD9Zbig8tU4NV1O5KVoaumjO5jj3761NZC6iN.j1d1ByACna.w3q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=6190899, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:28:45, updateBy=null, updateTime=2024-04-08T15:28:45, delFlag=0), User(id=6, userName=tom, nickName=普通用户, age=12, password=$2a$10$dCnFeVU4ny9MA79plAZu9.H/x72mLPS9kSgBLOsXnLlpoeFa5761q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:32:35, updateBy=null, updateTime=2024-04-08T15:32:35, delFlag=0), User(id=7, userName=tom22, nickName=普通用户, age=18, password=$2a$10$/VQBy/qzgPiKjTYHSRjf8.0YZzMiIrFQxc26ROpZvPW/7AdbF2kVK, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:46:30, updateBy=null, updateTime=2024-04-08T15:46:30, delFlag=0), User(id=8, userName=tom223, nickName=普通用户, age=18, password=$2a$10$mUH7zQ.QNhMWIBKcQq/PiuwB0M35n8aVTGWMXW8xCNtNLQggtl3Q6, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T16:19:48, updateBy=null, updateTime=2024-04-08T16:19:48, delFlag=0)]
+15.08.11.138  INFO 16016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15.08.11.141  INFO 16016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15.10.11.233  INFO 18192 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 18192 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+15.10.11.234 DEBUG 18192 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+15.10.11.235  INFO 18192 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+15.10.11.875  INFO 18192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15.10.11.879  INFO 18192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15.10.11.901  INFO 18192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+15.10.14.152  INFO 18192 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b88af70, org.springframework.security.web.context.SecurityContextPersistenceFilter@57b130f6, org.springframework.security.web.header.HeaderWriterFilter@4df7b4ac, org.springframework.web.filter.CorsFilter@2739ecc0, org.springframework.security.web.authentication.logout.LogoutFilter@9cc0505, com.store.commen.filters.JwtAuthenticationTokenFilter@2932e15f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ad40184, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72e75786, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@688d619c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d98729a, org.springframework.security.web.session.SessionManagementFilter@1ae9d0e4, org.springframework.security.web.access.ExceptionTranslationFilter@5e681097, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5960f17]
+15.10.14.776  INFO 18192 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.901 seconds (JVM running for 4.827)
+15.10.15.231  INFO 18192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15.10.15.454  INFO 18192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15.10.15.463 DEBUG 18192 --- [main] c.s.u.mapper.UserMapper.selectList       : ==>  Preparing: SELECT id,user_name,nick_name,age,password,status,email,phone_number,balance,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user
+15.10.15.487 DEBUG 18192 --- [main] c.s.u.mapper.UserMapper.selectList       : ==> Parameters: 
+15.10.15.513 DEBUG 18192 --- [main] c.s.u.mapper.UserMapper.selectList       : <==      Total: 4
+15.10.15.529  INFO 18192 --- [main] c.s.u.UserServerApplicationTests         : username[User(id=5, userName=liu, nickName=普通用户, age=12, password=$2a$10$.oD9Zbig8tU4NV1O5KVoaumjO5jj3761NZC6iN.j1d1ByACna.w3q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=6190899, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:28:45, updateBy=null, updateTime=2024-04-08T15:28:45, delFlag=0), User(id=6, userName=tom, nickName=普通用户, age=12, password=$2a$10$dCnFeVU4ny9MA79plAZu9.H/x72mLPS9kSgBLOsXnLlpoeFa5761q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:32:35, updateBy=null, updateTime=2024-04-08T15:32:35, delFlag=0), User(id=7, userName=tom22, nickName=普通用户, age=18, password=$2a$10$/VQBy/qzgPiKjTYHSRjf8.0YZzMiIrFQxc26ROpZvPW/7AdbF2kVK, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:46:30, updateBy=null, updateTime=2024-04-08T15:46:30, delFlag=0), User(id=8, userName=tom223, nickName=普通用户, age=18, password=$2a$10$mUH7zQ.QNhMWIBKcQq/PiuwB0M35n8aVTGWMXW8xCNtNLQggtl3Q6, status=0, email=22222222222@qq.com, phoneNumber=1111111111111, balance=null, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T16:19:48, updateBy=null, updateTime=2024-04-08T16:19:48, delFlag=0)]
+15.10.15.565  INFO 18192 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15.10.15.581  INFO 18192 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15.11.20.455  INFO 8900 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 8900 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+15.11.20.456 DEBUG 8900 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+15.11.20.456  INFO 8900 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+15.11.21.82  INFO 8900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15.11.21.87  INFO 8900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15.11.21.109  INFO 8900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+15.11.23.376  INFO 8900 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@117fb9ba, org.springframework.security.web.context.SecurityContextPersistenceFilter@41bd6a0f, org.springframework.security.web.header.HeaderWriterFilter@152891f8, org.springframework.web.filter.CorsFilter@2b1d1a5, org.springframework.security.web.authentication.logout.LogoutFilter@1b69fc07, com.store.commen.filters.JwtAuthenticationTokenFilter@41e7a544, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@42d0e41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@294c44b7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72e75786, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b66ac74, org.springframework.security.web.session.SessionManagementFilter@b56c222, org.springframework.security.web.access.ExceptionTranslationFilter@5e2975ca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@520c3dcb]
+15.11.24.23  INFO 8900 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.949 seconds (JVM running for 4.848)
+15.29.14.442  INFO 12220 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 12220 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+15.29.14.443 DEBUG 12220 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+15.29.14.444  INFO 12220 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+15.29.15.106  INFO 12220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15.29.15.108  INFO 12220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15.29.15.136  INFO 12220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+15.29.17.439  INFO 12220 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d9bd1d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@4df7b4ac, org.springframework.security.web.header.HeaderWriterFilter@1c411474, org.springframework.web.filter.CorsFilter@18ac4af6, org.springframework.security.web.authentication.logout.LogoutFilter@57a982f9, com.store.commen.filters.JwtAuthenticationTokenFilter@117fb9ba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19e801b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ae9d0e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67e4928c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b1d1a5, org.springframework.security.web.session.SessionManagementFilter@1d2c253, org.springframework.security.web.access.ExceptionTranslationFilter@3c8fe8ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dd64243]
+15.29.18.79  INFO 12220 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.061 seconds (JVM running for 5.012)
+15.31.10.279  INFO 12108 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 12108 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+15.31.10.281 DEBUG 12108 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+15.31.10.281  INFO 12108 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+15.31.11.00  INFO 12108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15.31.11.03  INFO 12108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15.31.11.32  INFO 12108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+15.31.13.355  INFO 12108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bb6869a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b2c8bda, org.springframework.security.web.header.HeaderWriterFilter@57b130f6, org.springframework.web.filter.CorsFilter@506b083, org.springframework.security.web.authentication.logout.LogoutFilter@3f908bc0, com.store.commen.filters.JwtAuthenticationTokenFilter@5eee3da9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@707f4647, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a04d2a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b632442, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ace2408, org.springframework.security.web.session.SessionManagementFilter@72e75786, org.springframework.security.web.access.ExceptionTranslationFilter@7c47e077, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14af73e1]
+15.31.13.983  INFO 12108 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.091 seconds (JVM running for 5.062)
+15.31.14.471  WARN 12108 --- [main] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @710726a3
+15.31.14.485  INFO 12108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15.31.14.721  INFO 12108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15.31.14.729 DEBUG 12108 --- [main] c.s.u.mapper.UserMapper.selectList       : ==>  Preparing: SELECT id,user_name,nick_name,age,password,status,email,phone_number,balance,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user WHERE (user_name = ?)
+15.31.14.754 DEBUG 12108 --- [main] c.s.u.mapper.UserMapper.selectList       : ==> Parameters: liu(String)
+15.31.14.782 DEBUG 12108 --- [main] c.s.u.mapper.UserMapper.selectList       : <==      Total: 1
+15.31.14.797  INFO 12108 --- [main] c.s.u.UserServerApplicationTests         : username[User(id=5, userName=liu, nickName=普通用户, age=12, password=$2a$10$.oD9Zbig8tU4NV1O5KVoaumjO5jj3761NZC6iN.j1d1ByACna.w3q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=6190899, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:28:45, updateBy=null, updateTime=2024-04-08T15:28:45, delFlag=0)]
+15.31.14.826  INFO 12108 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15.31.14.830  INFO 12108 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15.35.11.122  INFO 12528 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 12528 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+15.35.11.124 DEBUG 12528 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+15.35.11.124  INFO 12528 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+15.35.11.915  INFO 12528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15.35.11.918  INFO 12528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15.35.11.943  INFO 12528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+15.35.14.674  INFO 12528 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b6136eb, org.springframework.security.web.context.SecurityContextPersistenceFilter@54286339, org.springframework.security.web.header.HeaderWriterFilter@16949dfa, org.springframework.web.filter.CorsFilter@2cce10bc, org.springframework.security.web.authentication.logout.LogoutFilter@275902e1, com.store.commen.filters.JwtAuthenticationTokenFilter@73234691, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a99fa07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@144440f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43f99817, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25df2014, org.springframework.security.web.session.SessionManagementFilter@43778371, org.springframework.security.web.access.ExceptionTranslationFilter@422ba9b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b66ac74]
+15.35.15.452  INFO 12528 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 4.731 seconds (JVM running for 5.766)
+15.35.15.933  WARN 12528 --- [main] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @710726a3
+15.35.15.945  INFO 12528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15.35.16.236  INFO 12528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15.35.16.246 DEBUG 12528 --- [main] c.s.u.mapper.UserMapper.selectList       : ==>  Preparing: SELECT id,user_name,nick_name,age,password,status,email,phone_number,balance,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE (user_name = ?)
+15.35.16.274 DEBUG 12528 --- [main] c.s.u.mapper.UserMapper.selectList       : ==> Parameters: liu(String)
+15.35.16.375  INFO 12528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15.35.16.382  INFO 12528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15.35.46.588  INFO 3352 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 3352 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+15.35.46.589 DEBUG 3352 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+15.35.46.590  INFO 3352 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+15.35.47.198  INFO 3352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15.35.47.202  INFO 3352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15.35.47.223  INFO 3352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+15.35.49.427  INFO 3352 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c3710b3, org.springframework.security.web.context.SecurityContextPersistenceFilter@422ba9b7, org.springframework.security.web.header.HeaderWriterFilter@645d4639, org.springframework.web.filter.CorsFilter@8b1202a, org.springframework.security.web.authentication.logout.LogoutFilter@4ae958b0, com.store.commen.filters.JwtAuthenticationTokenFilter@34bddf43, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@340fc1aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b8a0d03, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42cfd794, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57839834, org.springframework.security.web.session.SessionManagementFilter@3359c3f6, org.springframework.security.web.access.ExceptionTranslationFilter@2dde0a34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79445efb]
+15.35.50.63  INFO 3352 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.859 seconds (JVM running for 4.767)
+15.35.50.513  WARN 3352 --- [main] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @710726a3
+15.35.50.527  INFO 3352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15.35.50.750  INFO 3352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15.35.50.758 DEBUG 3352 --- [main] c.s.u.mapper.UserMapper.selectList       : ==>  Preparing: SELECT id,user_name,nick_name,age,password,status,email,phone_number,balance,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user WHERE (user_name = ?)
+15.35.50.783 DEBUG 3352 --- [main] c.s.u.mapper.UserMapper.selectList       : ==> Parameters: liu(String)
+15.35.50.808 DEBUG 3352 --- [main] c.s.u.mapper.UserMapper.selectList       : <==      Total: 1
+15.35.50.824  INFO 3352 --- [main] c.s.u.UserServerApplicationTests         : username[User(id=5, userName=liu, nickName=普通用户, age=12, password=$2a$10$.oD9Zbig8tU4NV1O5KVoaumjO5jj3761NZC6iN.j1d1ByACna.w3q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=6190899, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:28:45, updateBy=null, updateTime=2024-04-08T15:28:45, delFlag=0)]
+15.35.50.859  INFO 3352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15.35.50.875  INFO 3352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+17.46.48.428  INFO 21228 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 21228 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+17.46.48.429 DEBUG 21228 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+17.46.48.430  INFO 21228 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+17.46.49.54  INFO 21228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+17.46.49.57  INFO 21228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17.46.49.83  INFO 21228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+17.46.51.351  INFO 21228 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d06801f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6acb45c1, org.springframework.security.web.header.HeaderWriterFilter@79617c3d, org.springframework.web.filter.CorsFilter@727956bb, org.springframework.security.web.authentication.logout.LogoutFilter@5ad40184, com.store.commen.filters.JwtAuthenticationTokenFilter@6ffbf0ac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57b130f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35a9e665, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ad5cffa, org.springframework.security.web.session.SessionManagementFilter@4df7b4ac, org.springframework.security.web.access.ExceptionTranslationFilter@1cb44a2f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39a865c1]
+17.46.52.07  INFO 21228 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 3.93 seconds (JVM running for 4.938)
+17.46.52.937  INFO 21228 --- [main] c.s.u.UserServerApplicationTests         : loginUser = LoginUser(user=User(id=5, userName=liu, nickName=普通用户, age=12, password=$2a$10$.oD9Zbig8tU4NV1O5KVoaumjO5jj3761NZC6iN.j1d1ByACna.w3q, status=0, email=2572342433@qq.com, phoneNumber=15920957680, balance=6190899, sex=0, avatar=null, userType=1, createBy=null, createTime=2024-04-08T15:28:45, updateBy=null, updateTime=2024-04-08T15:28:45, delFlag=0), permissions=[system:user:list], authorities=[system:user:list])

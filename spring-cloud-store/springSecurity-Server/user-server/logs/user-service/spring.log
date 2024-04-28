@@ -1,0 +1,41 @@
+22.08.58.253  INFO 25952 --- [main] c.s.u.UserServerApplicationTests         : Starting UserServerApplicationTests using Java 17.0.10 on DESKTOP-D5KOEUO with PID 25952 (started by LFJ in D:\SpringBootProject\springSecurity-server\user-server)
+22.08.58.254 DEBUG 25952 --- [main] c.s.u.UserServerApplicationTests         : Running with Spring Boot v2.6.13, Spring v5.3.23
+22.08.58.254  INFO 25952 --- [main] c.s.u.UserServerApplicationTests         : The following 1 profile is active: "dev"
+22.08.58.940  INFO 25952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+22.08.58.943  INFO 25952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+22.08.58.967  INFO 25952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+22.08.59.199  INFO 25952 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4ee4f056-6e37-3b89-b06a-73ccb13d9ce6
+22.09.02.95  INFO 25952 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22.09.02.360  INFO 25952 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23933031, org.springframework.security.web.context.SecurityContextPersistenceFilter@3cf70afa, org.springframework.security.web.header.HeaderWriterFilter@6be422da, org.springframework.web.filter.CorsFilter@4d0b7fd5, org.springframework.security.web.authentication.logout.LogoutFilter@278cb145, com.store.commen.filters.JwtAuthenticationTokenFilter@1ce2029b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a7aa675, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c6919ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43090195, org.springframework.security.web.session.SessionManagementFilter@4efe014f, org.springframework.security.web.access.ExceptionTranslationFilter@3c8758d1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@776e7dfb]
+22.09.04.131  INFO 25952 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22.09.04.232  INFO 25952 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of fe111ae4-be2a-4871-b780-a959b9757d04
+22.09.04.299  INFO 25952 --- [main] org.reflections.Reflections              : Reflections took 33 ms to scan 1 urls, producing 3 keys and 6 values 
+22.09.04.322  INFO 25952 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+22.09.04.330  INFO 25952 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 3 keys and 10 values 
+22.09.04.333  WARN 25952 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22.09.04.339  INFO 25952 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 5 values 
+22.09.04.347  INFO 25952 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 7 values 
+22.09.04.368  INFO 25952 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 2 keys and 8 values 
+22.09.04.369  WARN 25952 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22.09.04.370  INFO 25952 --- [main] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] RpcClient init label, labels = {module=naming, source=sdk}
+22.09.04.373  INFO 25952 --- [main] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+22.09.04.373  INFO 25952 --- [main] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+22.09.04.373  INFO 25952 --- [main] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+22.09.04.375  INFO 25952 --- [main] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] Try to connect to server on start up, server: {serverIp = '192.168.142.101', server main port = 8848}
+22.09.05.242  INFO 25952 --- [main] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] Success to connect to server [192.168.142.101:8848] on start up, connectionId = 1713737344305_192.168.142.1_14935
+22.09.05.243  INFO 25952 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] Notify connected event to listeners.
+22.09.05.243  INFO 25952 --- [main] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+22.09.05.244  INFO 25952 --- [main] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1536/0x00000257ba8a52b0
+22.09.05.295  INFO 25952 --- [main] c.s.u.UserServerApplicationTests         : Started UserServerApplicationTests in 8.635 seconds (JVM running for 9.689)
+22.09.05.761  INFO 25952 --- [main] c.s.u.UserServerApplicationTests         : eqcom.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@18a349cb
+22.09.05.775  WARN 25952 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+22.09.05.775  WARN 25952 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+22.09.05.775  WARN 25952 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+22.09.05.776  WARN 25952 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+22.09.05.851  INFO 25952 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] Receive server push request, request = NotifySubscriberRequest, requestId = 27
+22.09.05.853  INFO 25952 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [fe111ae4-be2a-4871-b780-a959b9757d04] Ack server push request, request = NotifySubscriberRequest, requestId = 27
+22.09.06.261  INFO 25952 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+22.09.06.261  INFO 25952 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@48c1a9d4[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+22.09.06.261  INFO 25952 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1713737344305_192.168.142.1_14935
+22.09.06.263  INFO 25952 --- [nacos-grpc-client-executor-8] c.a.n.c.remote.client.grpc.GrpcClient    : [1713737344305_192.168.142.1_14935]Ignore complete event,isRunning:false,isAbandon=false
+22.09.06.266  INFO 25952 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@dcfaa3d[Running, pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9]

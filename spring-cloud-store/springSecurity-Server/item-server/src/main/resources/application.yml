@@ -1,0 +1,12 @@
+server:
+  port: 8092
+spring:
+  rabbitmq:
+    virtual-host: /store
+    host: 192.168.142.101
+    username: store
+    password: 123
+    port: 5672
+    listener:
+      simple:
+        prefetch: 1

@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.store.commen.config.MvcConfig,\
+com.store.commen.utils.RedisCache,\
+com.store.commen.config.RedisConfig
